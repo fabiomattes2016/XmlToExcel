@@ -4,8 +4,6 @@ import pandas as pd
 
 
 def pegar_infos(nome_arquivo, lista_valores):
-    # print(f"Pegou informações do arquivo {nome_arquivo}")
-
     with open(f"nfs/{arquivo}", "rb") as arquivo_xml:
         dic_arquivo = xmltodict.parse(arquivo_xml)
 
