@@ -46,4 +46,3 @@ try:
     print(tabela.head())
 except Exception as e:
     print("Ocorreu um erro ao gerar a planilha", e)
-    
